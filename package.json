@@ -1,0 +1,37 @@
+{
+  "name": "proxy-http-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc index.ts && DEBUG=http node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warlikegh/proxy-http-server.git"
+  },
+  "keywords": [
+    "proxy",
+    "server",
+    "typescript"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warlikegh/proxy-http-server/issues"
+  },
+  "homepage": "https://github.com/warlikegh/proxy-http-server#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^14.14.34",
+    "@types/node-fetch": "^3.0.3"
+  },
+  "dependencies": {
+    "arraybuffer-to-string": "^1.0.2",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "http-proxy": "^1.18.1",
+    "node-fetch": "^2.6.1",
+    "typescript": "^4.4.3",
+    "window": "^4.2.7"
+  }
+}
